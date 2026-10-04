@@ -1,0 +1,40 @@
+{
+  "Click Place Order": {
+    "action": "click",
+    "role": "button",
+    "name": "Place Order"
+  },
+  "Add to Cart": {
+    "action": "click",
+    "role": "button",
+    "name": "Add to Cart"
+  },
+  "Go to Cart": {
+    "action": "click",
+    "role": "link",
+    "name": "Cart (1)"
+  },
+  "Proceed to Checkout": {
+    "action": "click",
+    "role": "link",
+    "name": "Proceed to Checkout"
+  },
+  "Fill in name \"Test User\"": {
+    "action": "fill",
+    "role": "textbox",
+    "name": "Full Name",
+    "value": "Test User"
+  },
+  "Fill in address \"123 Test St\"": {
+    "action": "fill",
+    "role": "textbox",
+    "name": "Address",
+    "value": "123 Test St"
+  },
+  "Fill in card \"1234\"": {
+    "action": "fill",
+    "role": "textbox",
+    "name": "Card Number",
+    "value": "1234"
+  }
+}

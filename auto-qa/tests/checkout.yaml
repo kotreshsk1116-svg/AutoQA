@@ -1,0 +1,12 @@
+- id: checkout
+  intent: User adds an item to the cart and completes checkout
+  steps:
+    - Add to Cart
+    - Go to Cart
+    - Proceed to Checkout
+    - Fill in name "Test User"
+    - Fill in address "123 Test St"
+    - Fill in card "1234"
+    - Click Place Order
+  expect: Order confirmation page shows an order number
+  priority: high
